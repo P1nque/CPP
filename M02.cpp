@@ -10,12 +10,12 @@ double polygonArea(double A, int N) {
 int main(){
   setlocale(0,"Russian");
   double A;
-  cout << "Введите длину стороны: "<< endl;
+  cout << "Введите длину стороны: " << endl;
   cin >> A;
   int N;
-  cout << "Введите количество сторон: "<< endl;
+  cout << "Введите количество сторон: " << endl;
   cin >> N;
-  cout << "Площадь " << N <<"-угольника с длинной стороны "<< A << ": " <<polygonArea(A, N)<< endl;
+  cout << "Площадь " << N << "-угольника с длинной стороны " << A << ": " << polygonArea(A, N) << endl;
 
 return 0;
 }
