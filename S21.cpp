@@ -8,7 +8,7 @@ setlocale(0, "Russian");
 int A, B;
     cin >> A >> B;
     ofstream out("output.txt");
-for (int i = A ;i <= B; ++i) {
+for (int i = A; i <= B; ++i) {
     out << i * 3 << endl;
 }
 
